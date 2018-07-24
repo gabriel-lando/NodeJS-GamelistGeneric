@@ -14,7 +14,7 @@ This will start a WebServer on port 80;
 
 To test, open browser and access:
 
-[localhost/?channel=CHANNEL&status=STATUS&game=GAME](http://localhost/?channel=CHANNEL&status=STATUS&game=GAME)
+[localhost/?channel=CHANNEL&status=STATUS&game=GAME&text=HelloWorld](http://localhost/?channel=CHANNEL&status=STATUS&game=GAME&text=HelloWorld)
 
 ## Parameters
 
