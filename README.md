@@ -6,6 +6,7 @@ To test, you need to install Node.js on your machine and run this commands:
 
 ```bash
 $ git clone https://github.com/gabriel-lando/gamelist-generic.git
+$ cd gamelist-generic
 $ npm start
 ```
 
