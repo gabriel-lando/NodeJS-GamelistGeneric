@@ -15,14 +15,14 @@ To test, open browser and access:
 
 [localhost/?channel=CHANNEL&status=STATUS&game=GAME](localhost/?channel=CHANNEL&status=STATUS&game=GAME)
 
-## Parameters:
+# Parameters:
 	- channel= Twitch Channel
 	- status= Current Channel Status
 	- game= Current Game
 	- text= (Optional) Text to be returned to Bot
 
 
-## How to use on Twitch.tv:
+# How to use on Twitch.tv:
 
 	1) Host this application in some Web Service (i.e. AWS, Azure, OpenShift).
 	2) In NightBot Control Pannel, add a Timer to 5~6 minutes with this command:
