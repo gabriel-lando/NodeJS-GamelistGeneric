@@ -27,12 +27,12 @@ To test, open browser and access:
 
 1) Host this application in some Web Service (i.e. AWS, Azure, OpenShift).
 2) In NightBot Control Pannel, add a Timer to 5 or 6 minutes with this command: <br/>
-`$(customapi https://_LINK_FROM_WS_/?status=$(twitch $(channel) "{{status}}")&channel=$(channel)&game=$(twitch game $(channel)))` <br/>
-changing `_LINK_FROM_WS_` to created link in Step 1; <br/>
+`$(customapi https://_LINK_/?status=$(twitch $(channel) "{{status}}")&channel=$(channel)&game=$(twitch game $(channel)))` <br/>
+changing `_LINK_` to created link in Step 1; <br/>
 This will send to API the current status, game and channel name every 5 or 6 minutes. This is necessary because NightBot does not allow you to edit the `!game` command to do this automatically.
 
 3) Still in NightBot Control Pannel, create a Custom command !gamelist with: <br/>
-`$(customapi https://_LINK_FROM_WS_/?status=$(twitch $(channel) "{{status}}")&channel=$(channel)&game=PrintGameList )` <br/>
+`$(customapi https://_LINK_/?status=$(twitch $(channel) "{{status}}")&channel=$(channel)&game=PrintGameList )` <br/>
 The difference is in `game` parameter. The text `PrintGameList` will print the entire gamelist from this channel when is called.
 
 FYI: The following parameters are automatically completed by the NightBot:
