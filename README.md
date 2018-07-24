@@ -5,8 +5,8 @@ This script was made in Node.js.
 To test, you need to install Node.js on your machine and run this commands:
 
 ```bash
-git clone https://github.com/gabriel-lando/gamelist-generic.git
-npm start
+$ git clone https://github.com/gabriel-lando/gamelist-generic.git
+$ npm start
 ```
 
 This will start a WebServer on port 80;
